@@ -1,9 +1,12 @@
 class Transformer():
 
-    def transform(self, x, y):
-        return x + y
+    def transform_first(self, x_param, y_param):
+        return x_param + x_param
     
     def transform2(self, x, y):
-        return 2 * (x + y)
+        z = 2 * (x + y)
+        return z
+    
+
     
 
