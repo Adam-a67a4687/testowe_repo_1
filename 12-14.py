@@ -6,3 +6,6 @@ class Transformer():
     def transform2(self, x, y):
         z = 2 * (x + y)
         return z
+    
+    def transform3():
+        pass
